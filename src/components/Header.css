@@ -1,0 +1,56 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 10px;
+}
+
+.home{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 450px;
+}
+
+.button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.login{
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 8px;
+  cursor: pointer;
+}
+.login:hover{
+  text-decoration: underline;
+}
+
+.signup{
+  background-color: black;
+  color: white;
+  padding: 8px;
+  border-style: solid;
+  cursor: pointer;
+  height: 40px;
+}
+.signup:hover{
+  opacity: 0.8;
+}
+
+.para{
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.para:hover{
+  text-shadow: 2px 2px 4px rgba( 0, 0, 0, 0.3);
+}

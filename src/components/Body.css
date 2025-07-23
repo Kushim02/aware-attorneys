@@ -1,0 +1,41 @@
+.body-container{
+    background-color: rgb(255, 255, 255);
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.myimage{
+    width: 700px;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.body p{
+    width: 460px;
+}
+
+.body h2{
+    font-family: "Georgia", serif
+}
+
+.request{
+    color: white;
+    background-color: rgb(166, 139, 51);
+    border: none;
+    padding: 10px;
+    margin-right: 4px;
+    cursor: pointer;
+}
+
+.call{
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}

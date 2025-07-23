@@ -1,0 +1,44 @@
+.areas{
+    margin-left: 15px;
+    padding: 20px;
+}
+
+.areas h1{
+    font-family: "Georgia", serif;
+    width: 400px;
+    color: rgb(166, 139, 51);
+}
+
+.disciplines{
+    font-size: 15px;
+}
+
+.sections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    column-gap: 10px;
+    row-gap: 20px;
+    padding: 0px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sections h3{
+    color: rgb(166, 139, 51);
+}
+
+.section{
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+
+.slick-dots{
+    bottom: -30px;
+}
+
+.slick-dots li button:before{
+    color: #d4af37;
+}

@@ -1,0 +1,25 @@
+import React from 'react'
+import './Body.css'
+import sideimage from '../images/lawimage2.avif'
+import { FaPhoneAlt } from 'react-icons/fa'
+
+const Body = () => {
+    <link href="https://fonts.googleapis.com/css2?family=Georgia&display=swap" rel="stylesheet"></link>
+  return (
+    <div className='body-container'>
+      <div className='body'>
+        <h2 className='text-2xl font-bold mb-5'> Trusted legal solutions for the real world.</h2>
+        <p className='mb-3'>We specialise in corporate, commercial, intellectual property law and dispute resolution</p>
+        <div className='flex flex-row justify-space-between items-center mt-2 space-x-2'>
+            <button className='request w-46'><a href='mailto:izangkushim1@gmail.com'>Request Consultation</a></button>
+            <button className='call bg-stone-50 w-auto'><a href='tel: +2347046453599' className='flex'><FaPhoneAlt className='text-custom text-2xl mr-2'/> <span>+234-704-645-3599</span></a> </button>
+        </div>
+      </div>
+      <div>
+        <img src= {sideimage} className='myimage'/>
+      </div>
+    </div>
+  )
+}
+
+export default Body

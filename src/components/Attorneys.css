@@ -1,0 +1,142 @@
+
+
+.attorneys-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 40px;
+    position: relative;
+    margin-top: 20px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.card-slide,
+.card{
+    position: relative;
+    z-index: 2;
+}
+
+.card-slider{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 20px;
+ max-width: 1200px;
+ margin: 0 auto;
+ padding: 20px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(249, 249, 249, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-slide{
+    flex: 0 0 100%;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(249, 249, 249, 0.9);
+    opacity: 0;
+    box-sizing: border-box;
+}
+
+.card-slide.active{
+    opacity: 1;
+}
+
+.card-slide img{
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.card-slide .name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: #333;
+    margin: 5px 0;
+}
+
+.card-slide p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: #666;
+}
+
+.slider-button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(212, 175, 55, 0.8);
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.slider-button:hover{
+    background-color: rgb(180, 150, 45);
+}
+
+.prev{
+    left: 10px;
+}
+
+.next{
+    right: 10px;
+}
+
+.attorneys{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name{
+    margin-bottom: -25px;
+}
+
+.attorneys img{
+    width: 200px;
+    height: 200px;
+    object-position: cover;
+    border-radius: 4px;
+    position: relative;
+}
+
+.details{
+    z-index: 2;
+    opacity: 0.7;
+    height: 80px;
+    width: 200px;
+    background-color: white;
+    color: rgb(166, 139, 51);
+}
+
+@media (max-width: 768px) {
+  .card-slide {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .card-slide {
+    grid-template-columns: 1fr; /* 1 column on small screens */
+  }
+}

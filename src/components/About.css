@@ -1,0 +1,43 @@
+.about-container{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.about-image{
+    width: 500px;
+    height: 400px;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-content h2{
+    font-family: "Georgia", serif;
+    color: rgb(166, 139, 51); 
+    width: 600px;  
+}
+
+.about-content button{
+    padding: 5px 4px 4px ;
+    border: none;
+    color: white ;
+    background-color: rgb( 180, 150, 45);
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-content p{
+    width: 620px;
+}
+.about-content button:hover{
+    background-color: rgb(166, 139, 51);
+}
+
+ul li::marker{
+    color: rgb(40, 36, 25);
+}
