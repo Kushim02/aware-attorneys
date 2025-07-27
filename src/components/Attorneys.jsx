@@ -39,8 +39,8 @@ const Attorneys = () => {
 
   return (
     <div className='p-[20px]'>
-      <h2 className="text-2xl font-bold font-['Georgia',serif]" style={{color: 'rgb(166, 139, 51)'}}>Meet Our Most Talented Attorneys</h2>
-      <p>Our team consists of professionals with decades of combined experience, who are dedicated to providing strategic and effective legal solutions.</p>
+      <h2 className="text-xl md:text-2xl font-bold font-['Georgia',serif]" style={{color: 'rgb(166, 139, 51)'}}>Meet Our Talented Attorneys</h2>
+      <p className=''>Our team consists of professionals with decades of combined experience, who are dedicated to providing strategic and effective legal solutions.</p>
       <div className='w-3/4 m-auto'>
       <div className='mt-20 relative p-10'>
         <Swiper 
@@ -49,8 +49,11 @@ const Attorneys = () => {
             slidesPerView: 1,
             spaceBetween: 15
           },
-          
-          700:{
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+          },
+          1200:{
             slidesPerView: 3,
             spaceBetween: 15
           }

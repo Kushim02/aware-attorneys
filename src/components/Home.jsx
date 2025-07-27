@@ -14,11 +14,19 @@ const Home = () => {
       <Header/>
       <hr style={{ margin: '0 auto', border: '1px solid #e5e7eb' }}/>
       <Body/>
-      <Areas/>
-      <About/>
+      <div id='practice-areas'>
+        <Areas/>
+      </div>
+      <div id='about-us'>
+         <About/>
+      </div>
+      <div id='attorneys'>
       <Attorneys/>
+      </div>
       <Review/>
+      <div id='contact'>
       <Footer/>
+      </div>
     </div>
   )
 }

@@ -8,12 +8,12 @@ const Area = () => {
     }*/
         <link href="https://fonts.googleapis.com/css2?family=Georgia&display=swap" rel="stylesheet"></link>
     return (
-        <div className="areas">
-            <p className="disciplines">-LEGAL DISCIPLINES</p>
-            <h1 className="text-3xl font-semibold">The Area Where We Practice Our Law</h1>
-            <div className="sections">
+        <div className="areas p-4">
+            <p className="disciplines">LEGAL DISCIPLINES</p>
+            <h1 className="text-xl md:text-3xl font-semibold">The Area Where We Practice Our Law</h1>
+            <div className=" text-[rgb(166, 139, 51)] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div className="section">
-                    <h3 className="font-semibold">01</h3>
+                    <h3 className="font-semibold text-[rgb(166, 139, 51)]">01</h3>
                     <h2 className="text-xl font-semibold">Corporate and commercial Law</h2>
                     <p>Our corporate law team delivers comprehensive solutions to help your business thrive in today's complex commercial environment. We combine deep industry knowledge with practical expertise to support your company's growth and success.</p>
                 </div>

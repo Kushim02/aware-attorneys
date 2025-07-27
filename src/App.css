@@ -34,3 +34,19 @@
 .read-the-docs {
   color: #888;
 }
+
+html{
+  scroll-behavior: smooth;
+}
+
+h2{
+    font-family: "Georgia", serif;  
+}
+
+p, a, h3, li{
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 101.7;
+}

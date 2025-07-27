@@ -13,16 +13,16 @@
 .about-content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
 }
 
-.about-content h2{
+/* .about-content h2{
     font-family: "Georgia", serif;
     color: rgb(166, 139, 51); 
     width: 600px;  
-}
+} */
 
-.about-content button{
+.button{
     padding: 5px 4px 4px ;
     border: none;
     color: white ;

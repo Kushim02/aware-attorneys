@@ -70,16 +70,24 @@ const Review = () => {
 
   return (
     <div>
-      <div className="flex flex-row items-center justify-between gap-10 mx-20">
+      <div className="flex flex-row items-center justify-between gap-10 pl-5 md:mx-20">
 
         <div>
           <p>TESTIMONALS</p>
-          <h1 className="font-bold text-2xl font-['Georgia',serif]" style={{color: 'rgb(166, 139, 51)'}}>What Our Clients Say About Us</h1>
+          <h1 className="font-bold text-xl md:text-2xl font-['Georgia',serif]" style={{color: 'rgb(166, 139, 51)'}}>What Our Clients Say About Us</h1>
         </div>
         <div className=" max-w-6xl relative mt-4 p-4 bg-white/90 rounded-lg ">
         <Swiper
         ref={swiperRef}
         breakpoints={{
+          340: {
+                slidesPerView: 1,
+                spaceBetween: 10,
+              },
+              640: {
+                slidesPerView: 1,
+                spaceBetween: 15,
+              },
           700: {slidesPerView: 1,
           spaceBetween: 15
         },
@@ -88,20 +96,20 @@ const Review = () => {
         pagination={{clickable: true}}
         loop={true}
         modules={[FreeMode, Pagination, Navigation]}
-        className="w-[450px] p-10"
+        className=" w-[280px] md:w-[450px] p-10"
         >  
           {reviews.map((review, index) => (
             <SwiperSlide>
             <div key={index} className="w-[-450px] h-[-400] overflow-hidden  bg-white p-4 rounded-lg shadow-md mb-5 ">
-              <div className="flex flex-row items-center">
+              <div className="flex flex-row items-center ">
                 <img
                   src={review.image}
-                  className="w-20 rounded-full shadow-lg"
+                  className="w-16 md:w-20 rounded-full shadow-lg"
                 />
-                <p className="ml-5 font-semibold">{review.name}</p>
+                <p className="ml-5 font-semibold md:text-lg">{review.name}</p>
               </div>
               <div>
-                <p className="w-100">{review.review}</p>
+                <p className="w-fit text-xs md:text-sm">{review.review}</p>
               </div>
             </div>
             </SwiperSlide>
