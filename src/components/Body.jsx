@@ -8,7 +8,7 @@ const Body = () => {
   return (
     <div className=' flex flex-col md:flex-row justify-between items-center p-4'>
       <div className='body md:text-left mb-5 max-w-md'>
-        <h2 className='text-2xl font-bold mb-5 '> Trusted legal solutions for the real world.</h2>
+        <h2 className='text-xl sm:text-2xl font-bold mb-5 '> Trusted legal solutions for the real world.</h2>
         <p className='mb-3'>We specialise in corporate, commercial, intellectual property law and dispute resolution</p>
         <div className='flex flex-row justify-space-between items-center mt-2 space-x-2'>
             <button className='request w-46 sm:mb-0 w-full sm:w-auto'><a href='mailto:izangkushim1@gmail.com'>Request Consultation</a></button>

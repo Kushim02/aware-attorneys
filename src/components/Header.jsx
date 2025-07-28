@@ -29,7 +29,7 @@ const Header = () => {
 
   return (
     <div>
-      <div className="header">
+      <div className="header fixed top-0 left-0 right-0 z-50">
         <img src={logo1} style={{ width: "70px" }} alt="logo" className="" />
         <div className=" hidden sm:flex space-x-4">
           <p className="para">Home</p>
