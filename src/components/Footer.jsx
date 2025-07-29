@@ -8,7 +8,7 @@ const Footer = () => {
     <div className='bg-gray-50 p-5 md:p-10'>
      <div className='flex justify-evenly mb-10'>
       <div>
-        <img src={image} className='w-20 mb-4'/>
+        <img src={image} className='w-14 sm:w-16 md:w-20 mb-4'/>
         <p className='w-22 mr-2 md:w-40 text-[10px] sm:text-[12px]'>A law firm is a business entity formed by one or more lawyers to engage in the practice of law. The primary service offered by a law firm.</p>
       </div>
       <div className='flex flex-row justify-between gap-2 sm:gap-3'>
@@ -37,7 +37,7 @@ const Footer = () => {
         <hr/>
         </div>
            <div className='flex justify-center'> 
-            <p className='flex items-center gap-1 text-center text-sm md:text-base'>Copyright <span> <FaRegCopyright/> </span> 2025 Design by  All Rights Reserved</p>
+            <p className='flex items-center gap-1 text-center text-xs sm:text-sm md:text-base'>Copyright <span> <FaRegCopyright/> </span> 2025 Design by  All Rights Reserved</p>
         </div>
     </div>
   )

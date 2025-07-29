@@ -9,10 +9,10 @@ const Body = () => {
     <div className='pt-16 flex flex-col md:flex-row justify-between items-center p-4'>
       <div className='body text-center md:text-left mb-5 max-w-md'>
         <h2 className='text-lg sm:text-xl md:text-2xl font-bold mb-5 '> Trusted legal solutions for the real world.</h2>
-        <p className='mb-3 text-sm sm:text-base'>We specialise in corporate, commercial, intellectual property law and dispute resolution</p>
-        <div className='flex flex-row justify-space-between items-center mt-2 space-x-2'>
-            <button className='request w-46 sm:mb-0 w-full sm:w-auto text-sm'><a href='mailto:izangkushim1@gmail.com'>Request Consultation</a></button>
-            <button className='call bg-stone-50 w-auto sm:mb-0 w-full text-sm sm:text-base  sm:w-auto flex items-center'><a href='tel: +2347046453599' className='flex'><FaPhoneAlt className='text-custom text-2xl mr-2'/> <span>+234-704-645-3599</span></a> </button>
+        <p className='mb-3  text-xs sm:text-sm'>We specialise in corporate, commercial, intellectual property law and dispute resolution</p>
+        <div className='flex flex-col  sm:flex-row sm:justify-space-between items-center mt-2 '>
+            <button className='request w-50 p-2 sm:mb-0  sm:w-auto text-sm'><a href='mailto:izangkushim1@gmail.com'>Request Consultation</a></button>
+            <button className='call bg-stone-50 p-2 sm:mb-0 mt-2 sm:mt-0 w-50 text-sm sm:text-base  sm:w-auto flex items-center'><a href='tel: +2347046453599' className='flex'><FaPhoneAlt className='text-custom text-xl sm:text-2xl mr-1'/> <span>+234-704-645-3599</span></a> </button>
         </div>
       </div>
       <div>

@@ -29,13 +29,10 @@
     color: white;
     background-color: rgb(166, 139, 51);
     border: none;
-    padding: 10px;
-    margin-right: 4px;
     cursor: pointer;
 }
 
 .call{
     border: none;
-    padding: 10px;
     cursor: pointer;
 }

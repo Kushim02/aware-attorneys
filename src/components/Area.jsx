@@ -8,7 +8,7 @@ const Area = () => {
     }*/
         <link href="https://fonts.googleapis.com/css2?family=Georgia&display=swap" rel="stylesheet"></link>
     return (
-        <div className="areas p-4">
+        <div className="areas p-1">
             <p className="text-xs sm:text-sm text-center sm:text-left">LEGAL DISCIPLINES</p>
             <h1 className="text-sm sm:text-xl md:text-3xl text-center sm:text-left font-semibold">The Area Where We Practice Our Law</h1>
             <div className=" text-[rgb(166, 139, 51)] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
