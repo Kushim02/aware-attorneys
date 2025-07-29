@@ -7,7 +7,7 @@ const Body = () => {
    
   return (
     <div className='pt-16 flex flex-col md:flex-row justify-between items-center p-4'>
-      <div className='body text-center md:text-left mb-5 max-w-md'>
+      <div className='body text-center md:text-left mb-5 '>
         <h2 className='text-lg sm:text-xl md:text-2xl font-bold mb-5 mt-10 md:mt-0'> Trusted legal solutions for the real world.</h2>
         <p className='mb-3 text-[15px] sm:text-sm'>We specialise in corporate, commercial, intellectual property law and dispute resolution</p>
         <div className='flex flex-col  sm:flex-row sm:justify-space-between items-center mt-2 '>
