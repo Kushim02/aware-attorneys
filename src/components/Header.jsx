@@ -52,15 +52,15 @@ const Header = () => {
         </div>
         {isOpen && (
           <div className="sm:hidden absolute top-0 w-full left-0 bg-gray-100 z-10">
-            <p className="block px-4 py-2 font-semibold hover:bg-gray-200" onClick={() => setIsOpen(false)}>
+            <p className="block px-4 py-2 text-sm font-semibold hover:bg-gray-200" onClick={() => setIsOpen(false)}>
               Home
             </p>
-            <a href="#practice-areas" className="block px-4 py-2 font-semibold hover:bg-gray-200" onClick={() => setIsOpen(false)}> Practice Areas</a>
-            <a href="#members" className="block px-4 py-2 font-semibold hover:bg-gray-200" onClick={() => setIsOpen(false)}> Members</a>
-            <a href="#about-us" className="block px-4 py-2 font-semibold hover:bg-gray-200" onClick={() => setIsOpen(false)}> About Us</a>
-            <a href="#contact" className="block px-4 py-2 font-semibold hover:bg-gray-200" onClick={() => setIsOpen(false)}> Contact</a>
-            <p className="block px-4 py-2 font-semibold hover:bg-gray-200 cursor-pointer" onClick={loginClick}>Login</p>
-            <button className="w-full text-left px-4 py-2 font-semibold hover:bg-gray-200 cursor-pointer" onClick={signUpClick}>Sign Up</button>
+            <a href="#practice-areas" className="block px-4 py-2 text-sm font-semibold hover:bg-gray-200" onClick={() => setIsOpen(false)}> Practice Areas</a>
+            <a href="#members" className="block px-4 py-2 text-sm font-semibold hover:bg-gray-200" onClick={() => setIsOpen(false)}> Members</a>
+            <a href="#about-us" className="block px-4 py-2 text-sm font-semibold hover:bg-gray-200" onClick={() => setIsOpen(false)}> About Us</a>
+            <a href="#contact" className="block px-4 py-2 text-sm font-semibold hover:bg-gray-200" onClick={() => setIsOpen(false)}> Contact</a>
+            <p className="block px-4 py-2 text-sm font-semibold hover:bg-gray-200 cursor-pointer" onClick={loginClick}>Login</p>
+            <button className="w-full text-left text-sm px-4 py-2 font-semibold hover:bg-gray-200 cursor-pointer" onClick={signUpClick}>Sign Up</button>
           </div>
         )} 
       </div>
