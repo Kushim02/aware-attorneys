@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div>
       <Header/>
-      <hr style={{ margin: '0 auto', border: '1px solid #e5e7eb' }}/>
+
       <Body/>
       <div id='practice-areas'>
         <Areas/>

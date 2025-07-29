@@ -40,10 +40,11 @@ const Header = () => {
         </div>
         <div className=" hidden sm:flex space-x-4">
           
-            <p className="login" onClick={loginClick}>Login</p>
+        <p className="login" onClick={loginClick}>Login</p>
           
           <button className="signup" onClick={signUpClick}>Sign Up</button>
         </div>
+        
         <div className="sm:hidden flex items-center">
           <button onClick={()=> setIsOpen(!isOpen)} className="text-2xl focus:outline-none z-11 cursor-pointer">
             {isOpen? <FaTimes/> : <FaBars/>}

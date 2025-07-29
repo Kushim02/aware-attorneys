@@ -73,8 +73,8 @@ const Review = () => {
       <div className="flex flex-row items-center justify-between gap-10 pl-5 md:mx-20">
 
         <div>
-          <p>TESTIMONALS</p>
-          <h1 className="font-bold text-xl md:text-2xl font-['Georgia',serif]" style={{color: 'rgb(166, 139, 51)'}}>What Our Clients Say About Us</h1>
+          <p className="text-sm md:text-base">TESTIMONALS</p>
+          <h1 className="font-bold sm:text-lg md:text-2xl font-['Georgia',serif]" style={{color: 'rgb(166, 139, 51)'}}>What Our Clients Say About Us</h1>
         </div>
         <div className=" max-w-6xl relative mt-4 p-4 bg-white/90 rounded-lg ">
         <Swiper

@@ -39,8 +39,8 @@ const Attorneys = () => {
 
   return (
     <div className='p-[20px]'>
-      <h2 className="text-xl md:text-2xl font-bold font-['Georgia',serif]" style={{color: 'rgb(166, 139, 51)'}}>Meet Our Talented Attorneys</h2>
-      <p className=''>Our team consists of professionals with decades of combined experience, who are dedicated to providing strategic and effective legal solutions.</p>
+      <h2 className="text-lg sm:text-xl md:text-2xl font-bold font-['Georgia',serif]" style={{color: 'rgb(166, 139, 51)'}}>Meet Our Talented Attorneys</h2>
+      <p className='text-sm sm:text-base'>Our team consists of professionals with decades of combined experience, who are dedicated to providing strategic and effective legal solutions.</p>
       <div className='w-3/4 m-auto'>
       <div className='mt-20 relative p-10'>
         <Swiper 
@@ -78,8 +78,8 @@ const Attorneys = () => {
             <img src= {card.image} className='h-44 w-44 rounded-full border-4 border-white'/>
             </div>
             <div className='flex flex-col justify-center items-center gap-4 p-4'>
-            <p className=' font-semibold'>{card.name}</p>
-            <p className='text-center'>{card.title}</p>
+            <p className=' font-semibold text-sm sm:text-base'>{card.name}</p>
+            <p className='text-center text-sm sm:text-base'>{card.title}</p>
             </div>
              <RxArrowTopRight className='absolute bottom-5 left-2 w-[15px] h-[15px] '/>
           </div>
