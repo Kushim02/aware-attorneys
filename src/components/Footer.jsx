@@ -5,7 +5,7 @@ import { FaFacebook, FaFacebookF, FaFacebookMessenger, FaFacebookSquare, FaTwitt
 
 const Footer = () => {
   return (
-    <div className='bg-gray-50 p-5 md:p-10'>
+    <div className='bg-gray-50 p-5 md:p-10 w-auto'>
      <div className='flex justify-evenly mb-10'>
       <div>
         <img src={image} className='w-14 sm:w-16 md:w-20 mb-4'/>

@@ -29,7 +29,7 @@ const Header = () => {
 
   return (
     <div>
-      <div className="header fixed top-0 left-0 right-0 z-50 w-auto">
+      <div className="header fixed top-0 left-0 right-0 z-50 ">
         <img src={logo1} alt="logo" className="w-14 md:w-18" />
         <div className=" hidden sm:flex space-x-4">
           <p className="para">Home</p>
