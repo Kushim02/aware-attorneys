@@ -16,7 +16,7 @@ const Body = () => {
         </div>
       </div>
       <div>
-        <img src= {sideimage} className='myimage'/>
+        <img src= {sideimage} className='w-[700px]'/>
       </div>
     </div>
   )
