@@ -30,7 +30,7 @@ const Header = () => {
   return (
     <div>
       <div className="header fixed top-0 left-0 right-0 z-50 w-auto">
-        <img src={logo1} style={{ width: "70px" }} alt="logo" className="" />
+        <img src={logo1} alt="logo" className="w-14 md:w-18" />
         <div className=" hidden sm:flex space-x-4">
           <p className="para">Home</p>
           <a href="#practice-areas" className="para" >Practice Areas</a>
@@ -51,16 +51,16 @@ const Header = () => {
           </button>
         </div>
         {isOpen && (
-          <div className="sm:hidden absolute top-0 w-full left-0 bg-gray-100 z-10">
-            <p className="block px-4 py-2 text-sm font-semibold hover:bg-gray-200" onClick={() => setIsOpen(false)}>
+          <div className="sm:hidden absolute top-0 w-full left-0 right-0 bg-gray-100 z-10">
+            <p className="block px-4 py-2 text-xs font-semibold hover:bg-gray-200" onClick={() => setIsOpen(false)}>
               Home
             </p>
-            <a href="#practice-areas" className="block px-4 py-2 text-sm font-semibold hover:bg-gray-200" onClick={() => setIsOpen(false)}> Practice Areas</a>
-            <a href="#members" className="block px-4 py-2 text-sm font-semibold hover:bg-gray-200" onClick={() => setIsOpen(false)}> Members</a>
-            <a href="#about-us" className="block px-4 py-2 text-sm font-semibold hover:bg-gray-200" onClick={() => setIsOpen(false)}> About Us</a>
-            <a href="#contact" className="block px-4 py-2 text-sm font-semibold hover:bg-gray-200" onClick={() => setIsOpen(false)}> Contact</a>
-            <p className="block px-4 py-2 text-sm font-semibold hover:bg-gray-200 cursor-pointer" onClick={loginClick}>Login</p>
-            <button className="w-full text-left text-sm px-4 py-2 font-semibold hover:bg-gray-200 cursor-pointer" onClick={signUpClick}>Sign Up</button>
+            <a href="#practice-areas" className="block px-4 py-2 text-xs font-semibold hover:bg-gray-200" onClick={() => setIsOpen(false)}> Practice Areas</a>
+            <a href="#members" className="block px-4 py-2 text-xs font-semibold hover:bg-gray-200" onClick={() => setIsOpen(false)}> Members</a>
+            <a href="#about-us" className="block px-4 py-2 text-xs font-semibold hover:bg-gray-200" onClick={() => setIsOpen(false)}> About Us</a>
+            <a href="#contact" className="block px-4 py-2 text-xs font-semibold hover:bg-gray-200" onClick={() => setIsOpen(false)}> Contact</a>
+            <p className="block px-4 py-2 text-xs font-semibold hover:bg-gray-200 cursor-pointer" onClick={loginClick}>Login</p>
+            <button className="w-full text-left text-xs px-4 py-2 font-semibold hover:bg-gray-200 cursor-pointer" onClick={signUpClick}>Sign Up</button>
           </div>
         )} 
       </div>
