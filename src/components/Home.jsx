@@ -11,8 +11,9 @@ import Footer from '../components/Footer';
 const Home = () => {
   return (
     <div>
+      <div id='header'>
       <Header/>
-
+      </div>
       <Body/>
       <div id='practice-areas'>
         <Areas/>

@@ -40,9 +40,9 @@ const Attorneys = () => {
   return (
     <div className='p-[20px]'>
       <h2 className="text-sm sm:text-xl md:text-2xl font-bold font-['Georgia',serif]" style={{color: 'rgb(166, 139, 51)'}}>Meet Our Talented Attorneys</h2>
-      <p className='text-xs sm:text-base'>Our team consists of professionals with decades of combined experience, who are dedicated to providing strategic and effective legal solutions.</p>
+      <p className='text-[11px] sm:text-base'>Our team consists of professionals with decades of combined experience, who are dedicated to providing strategic and effective legal solutions.</p>
       <div className='w-3/4 m-auto'>
-      <div className='mt-20 relative p-10'>
+      <div className='mt-0 md:mt-20 relative p-10'>
         <Swiper 
         breakpoints = {{
           340: {
@@ -75,7 +75,7 @@ const Attorneys = () => {
             <SwiperSlide key={card.name}>
             <div  className='bg-white/80 h-[350px] overflow-hidden text-black rounded-xl shadow-xl/30 relative transform transition-all duration-300 hover:scale-105'>
             <div className='h-56 rounded-t-xl bg-white flex justify-center items-center rounded-t-xl '>
-            <img src= {card.image} className='h-44 w-44 rounded-full border-4 border-white'/>
+            <img src= {card.image} className='h-44 w-44 rounded-t-md border-4 border-white'/>
             </div>
             <div className='flex flex-col justify-center items-center gap-4 p-4'>
             <p className=' font-semibold text-xs sm:text-sm md:text-base'>{card.name}</p>

@@ -73,8 +73,8 @@ const Review = () => {
       <div className="flex flex-col sm:flex-row items-center justify-between md:gap-10 pl-5 md:mx-20">
 
         <div>
-          <p className=" text-sm md:text-base">TESTIMONALS</p>
-          <h1 className="font-bold sm:text-lg md:text-2xl font-['Georgia',serif]" style={{color: 'rgb(166, 139, 51)'}}>What Our Clients Say About Us</h1>
+          <p className=" text-xs md:text-base">TESTIMONALS</p>
+          <h1 className="font-bold text-sm sm:text-lg md:text-2xl font-['Georgia',serif]" style={{color: 'rgb(166, 139, 51)'}}>What Our Clients Say About Us</h1>
         </div>
         <div className=" max-w-6xl relative mt-4 p-4 bg-white/90 rounded-lg ">
         <Swiper
@@ -104,12 +104,12 @@ const Review = () => {
               <div className="flex flex-row items-center ">
                 <img
                   src={review.image}
-                  className="w-15 md:w-20 rounded-full shadow-lg"
+                  className="w-10 sm:w-15 md:w-20 rounded-full shadow-lg"
                 />
-                <p className="ml-5 font-semibold md:text-lg">{review.name}</p>
+                <p className="ml-5 text-xs font-semibold md:text-lg">{review.name}</p>
               </div>
               <div>
-                <p className="w-fit text-xs md:text-sm">{review.review}</p>
+                <p className="w-fit text-[8px] md:text-sm">{review.review}</p>
               </div>
             </div>
             </SwiperSlide>
