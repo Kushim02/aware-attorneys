@@ -18,6 +18,11 @@ export default defineConfig({
           100: "rgb(166, 139, 51)", // rgb(212, 175, 55)
         }
       },
+      screens: {
+      'xs': '320px',
+      'sm': '640px',
+      // ...
+    },
       },
   },
   plugins: [
