@@ -29,9 +29,9 @@ const Footer = () => {
       </div>
       <div>
         <h3 className='font-semibold text-xs sm:text-base text-custom-gold-100' style={{color: 'rgb(166, 139, 51)'}}>CONTACT</h3>
-        <a className='flex gap-4 items-center text-[10px] sm:text-sm mb-1 md:mb-0 md:text-base' href='tel: +2347046453599'><FaPhone style={{color: 'rgb(166, 139, 51)'}}/> +234 704 645 3599</a>
-        <a onClick={() => console.log("Send email")} className='flex gap-4 items-center text-[10px] sm:text-sm mb-1 md:mb-0 md:text-base' href='mailto:izangkushim1@gmail.com'><FaEnvelope style={{color: 'rgb(166, 139, 51)'}}/> Send Email</a>
-        <p className='flex gap-4 items-center w-[-50px] text-[10px] sm:text-sm md:mb-0 md:text-base'><FaLocationPin style={{color: 'rgb(166, 139, 51)'}}/>No.2 Boundary Street, Jos, Plateau State.</p>
+        <a className='flex gap-2 sm:gap-4 items-center text-[10px] sm:text-sm mb-1 md:mb-0 md:text-base' href='tel: +2347046453599'><FaPhone style={{color: 'rgb(166, 139, 51)'}}/> +234 704 645 3599</a>
+        <a onClick={() => console.log("Send email")} className='flex gap-2 sm:gap-4 items-center text-[10px] sm:text-sm mb-1 md:mb-0 md:text-base' href='mailto:izangkushim1@gmail.com'><FaEnvelope style={{color: 'rgb(166, 139, 51)'}}/> Send Email</a>
+        <p className='flex gap-2 sm:gap-4 items-center w-[-50px] text-[10px] sm:text-sm md:mb-0 md:text-base'><FaLocationPin style={{color: 'rgb(166, 139, 51)'}}/>No.2 Boundary Street, Jos, Plateau State.</p>
       </div>
       </div>
         <hr/>

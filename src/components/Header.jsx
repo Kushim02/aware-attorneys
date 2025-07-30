@@ -28,9 +28,9 @@ const Header = () => {
     // }
 
   return (
-    <div>
-      <div className="header fixed top-0 left-0 right-0 z-50 ">
-        <img src={logo1} alt="logo" className="w-14 md:w-18" />
+    <div className="w-auto">
+      <div className="flex flex-row justify-between items-center bg-white ml-2 mr-2 fixed top-0 left-0 right-0 z-50 w-auto ">
+        <img src={logo1} alt="logo" className="w-12 sm:w-14 md:w-18" />
         <div className=" hidden sm:flex space-x-4">
           <p className="para">Home</p>
           <a href="#practice-areas" className="para" >Practice Areas</a>
