@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import logo1 from '../images/image.png'
 import { Link, useNavigate } from "react-router-dom";
-//import "./Header.css";
+import "./Header.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Header = () => {

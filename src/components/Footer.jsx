@@ -9,7 +9,7 @@ const Footer = () => {
      <div className='flex justify-evenly mb-10'>
       <div>
         <img src={image} className='w-10 sm:w-16 md:w-20 mb-4'/>
-        <p className='w-17 md:w-40 text-[9px] sm:text-[12px]'>Aware Attorneys</p>
+        <p className='w-17 md:w-40 text-[9px] sm:text-[12px] md:text-base'>Aware Attorneys</p>
       </div>
       <div className='flex flex-row justify-between gap-2 sm:gap-3'>
       <div className='w-25 md:w-40'>
