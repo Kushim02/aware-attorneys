@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../images/image.png'
+import image from '../images/image-removebg-preview.png/'
 import { FaCopyright, FaEnvelope, FaLocationArrow, FaLocationPin, FaPhone, FaRegCopyright} from 'react-icons/fa6';
 import { FaFacebook, FaFacebookF, FaFacebookMessenger, FaFacebookSquare, FaTwitter } from 'react-icons/fa';
 

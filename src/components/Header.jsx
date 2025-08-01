@@ -29,7 +29,7 @@ const Header = () => {
 
   return (
     <div className="w-auto fixed self-center top-0 left-0 right-0 z-50 bg-white shadow-sm ">
-      <div className="flex flex-row justify-between items-center px-4 p-2  md:px-6 md:py-3">
+      <div className="flex flex-row justify-between items-center px-4 p-2  md:px-6 md:py-1">
         <img src={logo1} alt="logo" className="w-10 sm:w-12 md:w-14 lg:w-18" />
         <div className=" hidden sm:flex space-x-2 sm:space-x-3 md:space-x-4">
           <a href="#header" className="para text-sm sm:text-base">Home</a>
